@@ -12,11 +12,23 @@
         body {
             font-family: 'Raleway', sans-serif;
         }
+
+        /* Custom gold underline that is as long as the text and a bit thicker */
+        .gold-underline {
+            display: inline-block;
+            border-bottom: 3px solid #DBAF52; /* Thicker border */
+        }
+
+        /* Custom image size */
+        .service-img {
+            max-height: 250px; /* Increased image size */
+            width: auto;
+        }
     </style>
 </head>
 <body>
     <!-- Header -->
-        <header class="w-100" style="height: 280px;">
+    <header class="w-100" style="height: 280px;">
         <!-- Top Section (Blue Background #04132A) -->
         <div class="d-flex justify-content-center align-items-center" style="background-color: #04132A; height: 50%;">
             <h1 class="text-white text-uppercase fw-bold" style="font-size: 48px; text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);">QUAVODEV</h1>
@@ -33,81 +45,93 @@
         </div>
     </header>
 
-    <!-- Main Content -->
+    <!-- Services Section -->
     <div class="container my-5">
-        <!-- Section Header -->
-        <div class="bg-dark text-white text-center py-3">
-            <h2>Services</h2>
+        <!-- Service 1 -->
+        <div class="border rounded p-3 mb-4" style="border: 2px solid #0000FF;">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-start">
+                    <img src="images/services1.webp" alt="Stratégie de Marketing Digital" class="img-fluid rounded service-img">
+                </div>
+                <div class="col-md-8">
+                    <h5 class="fw-bold text-dark gold-underline text-end">1. Stratégie de Marketing Digital</h5>
+                    <p class="mb-2"><strong>Description:</strong> Élaboration d’une stratégie sur mesure pour atteindre les objectifs de l’entreprise via les canaux digitaux.</p>
+                    <p><strong>Principales activités :</strong></p>
+                    <ul class="mb-0">
+                        <li>Audit digital (analyse de l’existant)</li>
+                        <li>Identification des cibles (personas)</li>
+                        <li>Définition des canaux et outils (SEO, réseaux sociaux, e-mailing, etc.)</li>
+                        <li>Planification des actions marketing</li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
-        <!-- Content Sections -->
-        <div class="row mt-4">
-            <!-- Service 1 -->
-            <div class="col-md-4 mb-4">
-                <div class="card h-100 shadow-sm">
-                    <img src="https://tse4.mm.bing.net/th?id=OIP.rpSKwF0pLmWeZTYmBuK-9AHaHa&pid=Api" class="card-img-top" alt="Marketing Digital">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary fw-bold">1. Stratégie de Marketing Digital</h5>
-                        <p class="card-text">Élaboration d'une stratégie sur mesure pour atteindre les objectifs de notoriété, ventes, leads, et plus.</p>
-                        <ul>
-                            <li>Audit digital (analyse des leviers existants)</li>
-                            <li>Définition des cibles et objectifs</li>
-                            <li>Recommandations stratégiques : SEO, SEA</li>
-                            <li>Planification des actions marketing</li>
-                        </ul>
-                    </div>
+        <!-- images/Services 2 -->
+        <div class="border rounded p-3 mb-4" style="background-color: #04132A; color: white; border: none;">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h5 class="fw-bold text-white gold-underline">2. Optimisation pour les Moteurs de Recherche (SEO)</h5>
+                    <p class="mb-2"><strong>Description:</strong> Amélioration du positionnement d’un site web dans les résultats de recherche organiques.</p>
+                    <p><strong>Principales activités :</strong></p>
+                    <ul class="mb-0">
+                        <li>Recherche de mots-clés</li>
+                        <li>Optimisation technique du site (temps de chargement, balises, structure)</li>
+                        <li>Création de contenu de qualité</li>
+                        <li>Stratégies de netlinking</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-end">
+                    <img src="images/services2.webp" alt="Optimisation SEO" class="img-fluid rounded service-img">
                 </div>
             </div>
+        </div>
 
-            <!-- Service 2 -->
-            <div class="col-md-4 mb-4">
-                <div class="card h-100 shadow-sm">
-                    <img src="https://tse2.mm.bing.net/th?id=OIP.m08TLiHMtwRksWWq-9J6qwHaE8&pid=Api" class="card-img-top" alt="Optimisation SEO">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary fw-bold">2. Optimisation pour les Moteurs de Recherche (SEO)</h5>
-                        <p class="card-text">Amélioration du positionnement d'un site web dans les résultats de recherche (Google, Bing, etc.).</p>
-                        <ul>
-                            <li>Recherche et intégration de mots-clés pertinents</li>
-                            <li>Optimisation technique du site</li>
-                            <li>Création de contenu de qualité</li>
-                            <li>Backlinking et stratégies de netlinking</li>
-                        </ul>
-                    </div>
+        <!-- images/Services 3 -->
+        <div class="border rounded p-3 mb-4" style="border: 2px solid #0000FF;">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-start">
+                    <img src="images/services3.webp" alt="Publicité en Ligne" class="img-fluid rounded service-img">
+                </div>
+                <div class="col-md-8">
+                    <h5 class="fw-bold text-dark gold-underline text-end">3. Publicité en Ligne (SEA)</h5>
+                    <p class="mb-2"><strong>Description:</strong> Gestion de campagnes publicitaires payantes pour générer du trafic rapidement.</p>
+                    <p><strong>Principales activités :</strong></p>
+                    <ul class="mb-0">
+                        <li>Configuration et optimisation de campagnes Google Ads (AdWords)</li>
+                        <li>Gestion des publicités sur Bing Ads, YouTube et autres plateformes</li>
+                        <li>Analyse des performances (CPC, ROAS, taux de conversion)</li>
+                    </ul>
                 </div>
             </div>
+        </div>
 
-            <!-- Service 3 -->
-            <div class="col-md-4 mb-4">
-                <div class="card h-100 shadow-sm">
-                    <img src="https://tse3.mm.bing.net/th?id=OIP.CN_JzWnP7KGOuoW5RMOMfAHaE_&pid=Api" class="card-img-top" alt="Publicité SEA">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary fw-bold">3. Publicité en Ligne (SEA)</h5>
-                        <p class="card-text">Gestion de campagnes publicitaires payantes pour générer du trafic rapidement.</p>
-                        <ul>
-                            <li>Création et optimisation de campagnes Google Ads</li>
-                            <li>Publicité sur YouTube et Instagram</li>
-                            <li>Analyse des performances (CPC, ROAS, taux de conversion)</li>
-                        </ul>
-                    </div>
+        <!-- images/Services 4 (New Service) -->
+        <div class="border rounded p-3 mb-4" style="background-color: #04132A; color: white; border: none;">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h5 class="fw-bold text-white gold-underline">4. Création de Contenu Visuel</h5>
+                    <p class="mb-2"><strong>Description:</strong> Création de contenu visuel percutant pour renforcer la présence de votre marque.</p>
+                    <p><strong>Principales activités :</strong></p>
+                    <ul class="mb-0">
+                        <li>Design graphique (bannières, logos, etc.)</li>
+                        <li>Création de vidéos et animations</li>
+                        <li>Conception d'infographies</li>
+                        <li>Réalisation de visuels pour les réseaux sociaux</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-end">
+                    <img src="images/services4.webp" alt="Création de Contenu Visuel" class="img-fluid rounded service-img">
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-4">
-        <p class="mb-0">&copy; 2025 QuavoDev. Tous droits réservés.</p>
-        <div class="d-flex justify-content-center mt-3">
-            <a href="https://facebook.com" target="_blank" class="text-white mx-2">
-                <i class="bi bi-facebook"></i>
-            </a>
-            <a href="https://twitter.com" target="_blank" class="text-white mx-2">
-                <i class="bi bi-twitter"></i>
-            </a>
-            <a href="https://instagram.com" target="_blank" class="text-white mx-2">
-                <i class="bi bi-instagram"></i>
-            </a>
-            <a href="https://tiktok.com" target="_blank" class="text-white mx-2">
-                <i class="bi bi-tiktok"></i>
-            </a>
-        </div>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 QuavoDev | Tous droits réservés</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
