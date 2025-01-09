@@ -4,136 +4,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services - QuavoDev</title>
-    <!-- Integration de Bootstrap -->
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Font: Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        .section-header {
-            background-color: #001f3f;
-            color: white;
-            padding: 10px;
+        body {
+            font-family: 'Raleway', sans-serif;
         }
-        .content-section {
-            display: flex;
-            align-items: center;
-            border: 1px solid #ddd;
-            margin-bottom: 20px;
-            padding: 10px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+        /* Custom gold underline that is as long as the text and a bit thicker */
+        .gold-underline {
+            display: inline-block;
+            border-bottom: 3px solid #DBAF52; /* Thicker border */
         }
-        .content-section img {
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            margin-right: 15px;
-        }
-        .content-section h3 {
-            color: #001f3f;
-            margin: 0 0 10px;
+
+        /* Custom image size */
+        .service-img {
+            max-height: 250px; /* Increased image size */
+            width: auto;
         }
     </style>
 </head>
 <body>
-    <header class="bg-dark text-white text-center py-3">
-        <h1>QuavoDev</h1>
+    <!-- Header -->
+    <header class="w-100" style="height: 280px;">
+        <!-- Top Section (Blue Background #04132A) -->
+        <div class="d-flex justify-content-center align-items-center" style="background-color: #04132A; height: 50%;">
+            <h1 class="text-white text-uppercase fw-bold" style="font-size: 48px; text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);">QUAVODEV</h1>
+        </div>
+
+        <!-- Bottom Section (White Background) -->
+        <div class="d-flex justify-content-center align-items-center" style="background-color: white; height: 50%;">
+            <nav class="d-flex gap-5">
+                <a href="accueil.html" class="text-dark text-uppercase fw-bold fs-4 text-decoration-none" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6), 2px 2px 4px #DBAF52;">ACCUEIL</a>
+                <a href="services.html" class="text-dark text-uppercase fw-bold fs-4 text-decoration-none" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6), 2px 2px 4px #DBAF52;">SERVICES</a>
+                <a href="apropos.html" class="text-dark text-uppercase fw-bold fs-4 text-decoration-none" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6), 2px 2px 4px #DBAF52;">À PROPOS</a>
+                <a href="contact.html" class="text-dark text-uppercase fw-bold fs-4 text-decoration-none" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6), 2px 2px 4px #DBAF52;">CONTACT</a>
+            </nav>
+        </div>
     </header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="accueil.html">QuavoDev</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="accueil.html">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="apropos.html">À propos</a>
-                    </li>
-                </ul>
+
+    <!-- Services Section -->
+    <div class="container my-5">
+        <!-- Service 1 -->
+        <div class="border rounded p-3 mb-4" style="border: 2px solid #0000FF;">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-start">
+                    <img src="images/services1.webp" alt="Stratégie de Marketing Digital" class="img-fluid rounded service-img">
+                </div>
+                <div class="col-md-8">
+                    <h5 class="fw-bold text-dark gold-underline text-end">1. Stratégie de Marketing Digital</h5>
+                    <p class="mb-2"><strong>Description:</strong> Élaboration d’une stratégie sur mesure pour atteindre les objectifs de l’entreprise via les canaux digitaux.</p>
+                    <p><strong>Principales activités :</strong></p>
+                    <ul class="mb-0">
+                        <li>Audit digital (analyse de l’existant)</li>
+                        <li>Identification des cibles (personas)</li>
+                        <li>Définition des canaux et outils (SEO, réseaux sociaux, e-mailing, etc.)</li>
+                        <li>Planification des actions marketing</li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </nav>
 
-    <div class="container my-5">
-        <section>
-            <div class="section-header text-center">
-                <h2>Services</h2>
-            </div>
-
-            <div class="mt-4">
-                <!-- Bloc 1: Stratégie de Marketing Digital-->
-                <div class="content-section">
-                    <img src="https://tse4.mm.bing.net/th?id=OIP.rpSKwF0pLmWeZTYmBuK-9AHaHa&pid=Api" alt="Marketing Digital">
-                    <div>
-                        <h3>1. Stratégie de Marketing Digital</h3>
-                        <p>Elaboration d'une stratégie sur mesure pour atteindre les objectifs de notoriété, ventes, leads et plus. Principales activités :</p>
-                        <ul>
-                            <li>Audit digital (analyse des leviers existants)</li>
-                            <li>Définition des cibles et objectifs</li>
-                            <li>Recommandations stratégiques : SEO, SEA</li>
-                            <li>Planification des actions marketing</li>
-                        </ul>
-                    </div>
+        <!-- images/Services 2 -->
+        <div class="border rounded p-3 mb-4" style="background-color: #04132A; color: white; border: none;">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h5 class="fw-bold text-white gold-underline">2. Optimisation pour les Moteurs de Recherche (SEO)</h5>
+                    <p class="mb-2"><strong>Description:</strong> Amélioration du positionnement d’un site web dans les résultats de recherche organiques.</p>
+                    <p><strong>Principales activités :</strong></p>
+                    <ul class="mb-0">
+                        <li>Recherche de mots-clés</li>
+                        <li>Optimisation technique du site (temps de chargement, balises, structure)</li>
+                        <li>Création de contenu de qualité</li>
+                        <li>Stratégies de netlinking</li>
+                    </ul>
                 </div>
-
-                <!-- Bloc 2: Optimisation SEO -->
-                <div class="content-section">
-                    <img src="https://tse2.mm.bing.net/th?id=OIP.m08TLiHMtwRksWWq-9J6qwHaE8&pid=Api" alt="Optimisation SEO">
-                    <div>
-                        <h3>2. Optimisation pour les Moteurs de Recherche (SEO)</h3>
-                        <p>Amélioration du positionnement d'un site web dans les résultats de recherche (Google, Bing, etc.). Principales activités :</p>
-                        <ul>
-                            <li>Recherche et intégration de mots-clés pertinents</li>
-                            <li>Optimisation technique du site (temps de chargement, structure, mobile)</li>
-                            <li>Création de contenu de qualité</li>
-                            <li>Backlinking et stratégies de netlinking</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Bloc 3: Publicité en Ligne (SEA) -->
-                <div class="content-section">
-                    <img src="https://tse3.mm.bing.net/th?id=OIP.CN_JzWnP7KGOuoW5RMOMfAHaE_&pid=Api" alt="Publicité SEA">
-                    <div>
-                        <h3>3. Publicité en Ligne (SEA - Search Engine Advertising)</h3>
-                        <p>Gestion de campagnes publicitaires payantes pour générer du trafic rapidement. Principales activités :</p>
-                        <ul>
-                            <li>Création et optimisation de campagnes Google Ads et Bing Ads</li>
-                            <li>Publicité sur des plateformes comme YouTube et Instagram</li>
-                            <li>Analyse des performances (CPC, ROAS, taux de conversion)</li>
-                        </ul>
-                    </div>
+                <div class="col-md-4 text-end">
+                    <img src="images/services2.webp" alt="Optimisation SEO" class="img-fluid rounded service-img">
                 </div>
             </div>
-        </section>
+        </div>
+
+        <!-- images/Services 3 -->
+        <div class="border rounded p-3 mb-4" style="border: 2px solid #0000FF;">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-start">
+                    <img src="images/services3.webp" alt="Publicité en Ligne" class="img-fluid rounded service-img">
+                </div>
+                <div class="col-md-8">
+                    <h5 class="fw-bold text-dark gold-underline text-end">3. Publicité en Ligne (SEA)</h5>
+                    <p class="mb-2"><strong>Description:</strong> Gestion de campagnes publicitaires payantes pour générer du trafic rapidement.</p>
+                    <p><strong>Principales activités :</strong></p>
+                    <ul class="mb-0">
+                        <li>Configuration et optimisation de campagnes Google Ads (AdWords)</li>
+                        <li>Gestion des publicités sur Bing Ads, YouTube et autres plateformes</li>
+                        <li>Analyse des performances (CPC, ROAS, taux de conversion)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- images/Services 4 (New Service) -->
+        <div class="border rounded p-3 mb-4" style="background-color: #04132A; color: white; border: none;">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h5 class="fw-bold text-white gold-underline">4. Création de Contenu Visuel</h5>
+                    <p class="mb-2"><strong>Description:</strong> Création de contenu visuel percutant pour renforcer la présence de votre marque.</p>
+                    <p><strong>Principales activités :</strong></p>
+                    <ul class="mb-0">
+                        <li>Design graphique (bannières, logos, etc.)</li>
+                        <li>Création de vidéos et animations</li>
+                        <li>Conception d'infographies</li>
+                        <li>Réalisation de visuels pour les réseaux sociaux</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-end">
+                    <img src="images/services4.webp" alt="Création de Contenu Visuel" class="img-fluid rounded service-img">
+                </div>
+            </div>
+        </div>
     </div>
 
-    <footer class="bg-dark text-white text-center py-4">
-        <p>&copy; 2025 QuavoDev. Tous droits réservés.</p>
-        <div class="d-flex justify-content-center">
-            <a href="https://facebook.com" target="_blank" class="mx-2">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" width="24">
-            </a>
-            <a href="https://twitter.com" target="_blank" class="mx-2">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Twitter-logo.svg" alt="X (Twitter)" width="24">
-            </a>
-            <a href="https://instagram.com" target="_blank" class="mx-2">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="24">
-            </a>
-            <a href="https://tiktok.com" target="_blank" class="mx-2">
-                <img src="https://upload.wikimedia.org/wikipedia/en/6/69/TikTok_logo.svg" alt="TikTok" width="24">
-            </a>
-        </div>
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 QuavoDev | Tous droits réservés</p>
     </footer>
 
-    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
