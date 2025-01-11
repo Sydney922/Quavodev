@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0 5%;
+}
+.contact{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+#contact {
+    padding: 0 10%;
+    margin-bottom: 5rem;
+}
+
+#contact form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Limite la largeur du formulaire */
+    margin: 0 auto; /* Centre le formulaire horizontalement */
+}
+label {
+    display: block;
+    margin-bottom: 8px; /* Espacement uniforme entre les étiquettes */
+    font-weight: bold; /* Met en gras les étiquettes */
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Boîte de saisie inclut le padding et la bordure */
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+   
+  }
+  body{
+    background-color: #F5F5F5;
+  }
+
+
+.header{
+    background-color: #002147;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 130px;
+}
+
+#logo{
+    color: #ffff;
+    padding: 17px;
+    font-family: "Modak", serif;
+    font-style: normal;
+    font-size: 64px;
+    transition: transform 0.3s;
+}
+
+#logo:hover{
+    transform: scale(1.03);
+}
+
+.navbar{
+    padding: 24px;
+}
+.lien{
+    margin-left: 130px;
+    display: flex;
+    gap: 200px;
+
+}
+
+#a1, #a2, #a3, #a4{
+    font-family: "Modak", serif;
+    font-style: normal;
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.3s;
+}
+#a1:hover, #a2:hover, #a3:hover, #a4:hover{
+    transform: scale(1.03);
+    color: #DBAF52;
+}
+
+#p1{
+    text-decoration: underline #DBAF52 10px  ;
+    font-family: "Raleway" , serif;
+    margin-top: 73px;
+    margin-left: 99px;
+    font-size: 32px;
+
+}
+span{
+    color: #DBAF52;
+}
+.descrip1{
+    margin-top: 142px;
+    background-color: #002147;
+    height: 480px;
+    transition: transform 0.3s;
+    display: flex;
+}
+.descrip1:hover{
+    transform: scale(1.01);
+}
+#pdesc{
+    font-family: "Raleway" , serif;
+    font-size: 24px;
+    color: white;
+    height: 502;
+    width: 430px;
+    margin-left: 223px;
+    margin-top: 61px;
+}
+.descrip2{
+    margin-top: 30px;
+    background-color: white;
+    height: 480px;
+    transition: transform 0.3s;
+    display: flex;
+}
+.descrip2:hover{
+    transform: scale(1.01);
+}
+#pdesc2{
+    font-family: "Raleway" , serif;
+    font-size: 24px;
+    color: black;
+    height: 502;
+    width: 430px;
+    margin-left: 99px;
+    margin-top: 61px;
+}
+
+#img2{
+   
+    height: 300px;
+    margin-left:  223px;
+    margin-top: 72px;
+}
+
+#fleche1{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 2px solid var(--black, #000);
+    background: var(--white, #FEFEFE);
+    transition: transform 0.3s;
+}
+#fleche2{
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 2px solid var(--black, #000);
+    background: var(--white, #FEFEFE);
+    transition: transform 0.3s;
+}
+#fleche1:hover,#fleche2:hover{
+    transform: scale(1.06);
+}
+.f1,.f2{
+    margin-top: 170px;
+}
+.f1{
+    margin-left: 20px;
+}
+.f2{margin-right: 20px;}
+.p1,.p2,.p3{
+    display: flex;
+    width: 310px;
+    height: 297px;
+    padding: 88px 95px 89px 95px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 12px 30px 8px rgba(0, 0, 0, 0.15);
+    margin: 60px;
+    transition: transform 0.3s;
+}
+.p1:hover,.p2:hover,.p3:hover{
+    transform: scale(1.06);
+}
+#x1,#x2,#x3{
+    width: 310px;
+    height: 297px;
+}
+.photo{
+    margin-top: 100px;
+    display: flex;
+    margin-bottom: 0;
+    
+    
+}
+
+.texte{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #04132A;
+    color: white;
+  }
+  
+  .footer-column {
+    width: 30%;
+  }
+  
+  .footer-column h3 {
+    margin-bottom: 15px;
+    color: #DBAF52;
+  }
+  
+  .footer-column p,
+  .footer-column a {
+    font-size: 0.9rem;
+    color: white;
+    line-height: 1.5;
+  }
+  
+  .footer-column a:hover {
+    color: #DBAF52;
+    text-decoration: underline;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column li {
+    margin-bottom: 10px;
+  }
+  .button{
+    margin: 7rem 0
+}
+.title {
+    text-transform: capitalize;
+    text-align: left;
+}
+
+h1.title::after {
+    position: absolute;
+    background-color: #FFD700;
+    position: absolute;
+    left: 0;
+    content: "";
+    height: 3px;
+    width: 5rem;
+    bottom: -1rem;
+}
+
+.content-section {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content-section img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.content-section h3 {
+    color: #001f3f;
+    margin: 0 0 10px;
+}
+
+.contact form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    /* Limite la largeur du formulaire */
+    margin: 0 auto;
+    /* Centre le formulaire horizontalement */
+}
