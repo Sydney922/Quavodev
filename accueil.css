@@ -1,0 +1,235 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+    
+   }
+   body{
+     background-color: #F5F5F5;
+   }
+
+
+.header{
+     background-color: #002147;
+     margin: 0;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     flex-direction: column;
+     height: 130px;
+}
+
+#logo{
+     color: #ffff;
+     padding: 17px;
+     font-family: "Modak", serif;
+     font-style: normal;
+     font-size: 64px;
+     transition: transform 0.3s;
+}
+
+#logo:hover{
+     transform: scale(1.03);
+}
+
+.navbar{
+     padding: 24px;
+}
+.lien{
+     margin-left: 130px;
+     display: flex;
+     gap: 200px;
+
+}
+
+#a1, #a2, #a3, #a4{
+     font-family: "Modak", serif;
+     font-style: normal;
+     font-size: 32px;
+     text-decoration: none;
+     color: black;
+     transition: transform 0.3s;
+}
+#a1:hover, #a2:hover, #a3:hover, #a4:hover{
+     transform: scale(1.03);
+     color: #DBAF52;
+}
+
+#p1{
+     text-decoration: underline #DBAF52 10px  ;
+     font-family: "Raleway" , serif;
+     margin-top: 73px;
+     margin-left: 99px;
+     font-size: 32px;
+
+}
+span{
+     color: #DBAF52;
+}
+.descrip1{
+     margin-top: 142px;
+     background-color: #002147;
+     height: 480px;
+     transition: transform 0.3s;
+     display: flex;
+}
+.descrip1:hover{
+     transform: scale(1.01);
+}
+#pdesc{
+     font-family: "Raleway" , serif;
+     font-size: 24px;
+     color: white;
+     height: 502;
+     width: 430px;
+     margin-left: 223px;
+     margin-top: 61px;
+}
+
+#img1{
+     width: 449.95px;
+     height: 300px;
+     margin-left: 99px;
+     margin-top: 72px;
+}
+
+.descrip2{
+     margin-top: 30px;
+     background-color: white;
+     height: 480px;
+     transition: transform 0.3s;
+     display: flex;
+}
+.descrip2:hover{
+     transform: scale(1.01);
+}
+#pdesc2{
+     font-family: "Raleway" , serif;
+     font-size: 24px;
+     color: black;
+     height: 502;
+     width: 430px;
+     margin-left: 99px;
+     margin-top: 61px;
+}
+
+#img2{
+    
+     height: 300px;
+     margin-left:  223px;
+     margin-top: 72px;
+}
+
+#fleche1{
+     display: flex;
+     width: 60px;
+     height: 60px;
+     padding: 10px;
+     justify-content: center;
+     align-items: center;
+     flex-shrink: 0;
+     border-radius: 50px;
+     border: 2px solid var(--black, #000);
+     background: var(--white, #FEFEFE);
+     transition: transform 0.3s;
+}
+#fleche2{
+     width: 40px;
+     height: 40px;
+     flex-shrink: 0;
+     display: flex;
+     width: 60px;
+     height: 60px;
+     padding: 10px;
+     justify-content: center;
+     align-items: center;
+     flex-shrink: 0;
+     border-radius: 50px;
+     border: 2px solid var(--black, #000);
+     background: var(--white, #FEFEFE);
+     transition: transform 0.3s;
+}
+#fleche1:hover,#fleche2:hover{
+     transform: scale(1.06);
+}
+.f1,.f2{
+     margin-top: 170px;
+}
+.f1{
+     margin-left: 20px;
+}
+.f2{margin-right: 20px;}
+.p1,.p2,.p3{
+     display: flex;
+     width: 310px;
+     height: 297px;
+     padding: 88px 95px 89px 95px;
+     justify-content: center;
+     align-items: center;
+     flex-shrink: 0;
+     background: #FFF;
+     box-shadow: 0px 12px 30px 8px rgba(0, 0, 0, 0.15);
+     margin: 60px;
+     transition: transform 0.3s;
+}
+.p1:hover,.p2:hover,.p3:hover{
+     transform: scale(1.06);
+}
+#x1,#x2,#x3{
+     width: 310px;
+     height: 297px;
+}
+.photo{
+     margin-top: 100px;
+     display: flex;
+     margin-bottom: 0;
+     
+     
+}
+
+.texte{
+     margin-bottom: 20px;
+     display: flex;
+     align-items: center;
+     text-align: center;
+}
+
+.footer {
+     display: flex;
+     justify-content: space-between;
+     padding: 20px;
+     background-color: #04132A;
+     color: white;
+   }
+   
+   .footer-column {
+     width: 30%;
+   }
+   
+   .footer-column h3 {
+     margin-bottom: 15px;
+     color: #DBAF52;
+   }
+   
+   .footer-column p,
+   .footer-column a {
+     font-size: 0.9rem;
+     color: white;
+     line-height: 1.5;
+   }
+   
+   .footer-column a:hover {
+     color: #DBAF52;
+     text-decoration: underline;
+   }
+   
+   .footer-column ul {
+     list-style: none;
+     padding: 0;
+   }
+   
+   .footer-column li {
+     margin-bottom: 10px;
+   }
+   
